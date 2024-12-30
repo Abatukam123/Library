@@ -22,6 +22,6 @@ class Product {
     
     static async delete(id) {
         const result = await db.query('DELETE FROM products WHERE id = ?', [id]);
-        return resul;
+        return result;
     }
 }
